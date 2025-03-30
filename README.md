@@ -643,10 +643,3 @@ These demonstrations show the containerization capabilities of the microservice.
 ![Docker](docs/images/docker-demo-1.gif)
 ![Docker Hub](docs/images/docker-demo-2.gif)
 
-## License
-
-[Specify your license here]
-
-## Contributing
-
-[Add contributing guidelines if needed]
