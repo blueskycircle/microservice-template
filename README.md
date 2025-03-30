@@ -24,6 +24,12 @@ A comprehensive template for building Python microservices with CLI capabilities
   - [Using Your Docker Hub Image](#using-your-docker-hub-image)
 - [Development Workflow](#development-workflow)
 - [Customizing the Template](#customizing-the-template)
+- [Visual Demonstrations](#visual-demonstrations)
+  - [CLI Usage Example](#cli-usage-example)
+  - [API Endpoint Example](#api-endpoint-example)
+  - [Docker Examples](#docker-examples)
+- [License](#license)
+- [Contributing](#contributing)
 
 ## Overview
 
@@ -126,14 +132,14 @@ The CLI tool provides the same mathematical operations through a command-line in
 python cli.py --help
 
 # Addition
-python cli.py addition 2 3
+python cli.py addition 2 3.6
 
 # Subtraction
 python cli.py subtraction 5 3
 
 # Working with negative numbers
-python cli.py addition -- -1 2
-python cli.py subtraction -- -5 -3
+python cli.py addition -- -1 2.3
+python cli.py subtraction -- -5 -3.3
 ```
 
 ### Floating-Point Precision
@@ -231,7 +237,7 @@ curl -X POST \
 #### Working with Negative Numbers
 ```bash
 # Using path parameters
-curl http://localhost:8000/add/-5/3
+curl http://localhost:8000/add/-5/3.333
 
 # Using JSON body
 curl -X POST \
@@ -616,6 +622,26 @@ curl -X POST http://localhost:8000/multiply -H "Content-Type: application/json" 
 - Remember to run code formatting (`make format`) and linting (`make lint`) after making changes
 - If deploying the updated service, rebuild the Docker image
 - Update API documentation to reflect the new endpoints
+
+## Visual Demonstrations
+
+The following visual demonstrations show the template in action, providing a clear picture of how the microservice works in practice.
+
+### CLI Usage Example
+This demonstration shows the command-line interface in action. The animation demonstrates how to run addition and subtraction operations.
+
+![CLI Addition Demo](docs/images/cli-demo-1.gif)
+
+### API Endpoint Example
+This demonstration illustrates how to interact with the API endpoints using curl commands.
+
+![API Subtraction Endpoint](docs/images/api-demo-1.gif)
+
+### Docker Examples
+These demonstrations show the containerization capabilities of the microservice. The first animation demonstrates building and running the Docker container locally, while the second shows the process of publishing the container to Docker Hub.
+
+![Docker](docs/images/docker-demo-1.gif)
+![Docker Hub](docs/images/docker-demo-2.gif)
 
 ## License
 
