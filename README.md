@@ -28,8 +28,6 @@ A comprehensive template for building Python microservices with CLI capabilities
   - [CLI Usage Example](#cli-usage-example)
   - [API Endpoint Example](#api-endpoint-example)
   - [Docker Examples](#docker-examples)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Overview
 
