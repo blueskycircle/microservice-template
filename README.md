@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/blueskycircle/microservice-template/actions/workflows/main.yml/badge.svg)](https://github.com/blueskycircle/microservice-template/actions/workflows/main.yml)
+
 # Microservice Template
 
 A comprehensive template for building Python microservices with FastAPI, CLI capabilities, testing, and containerization.
