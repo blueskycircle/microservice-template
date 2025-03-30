@@ -2,7 +2,7 @@
 
 # Microservice Template
 
-A comprehensive template for building Python microservices with FastAPI, CLI capabilities, testing, and containerization.
+A comprehensive template for building Python microservices with CLI capabilities, FastAPI, testing, and containerization.
 
 ## Table of Contents
 - [Overview](#overview)
