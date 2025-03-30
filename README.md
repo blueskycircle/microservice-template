@@ -344,25 +344,25 @@ To make your containerized microservice available to others:
 
    ```bash
    # Format: docker tag local-image:tag username/repository:tag
-   docker tag microservice-template:latest yourusername/microservice-template:latest
+   docker tag microservice-template:latest blueskysquare/microservice-template:latest
    
    # You can also use version tags
-   docker tag microservice-template:latest yourusername/microservice-template:1.0.0
+   docker tag microservice-template:latest blueskysquare/microservice-template:1.0.0
    ```
 
 4. **Push the image to Docker Hub**
 
    ```bash
    # Push the latest version
-   docker push yourusername/microservice-template:latest
+   docker push blueskysquare/microservice-template:latest
    
    # Push a specific version
-   docker push yourusername/microservice-template:1.0.0
+   docker push blueskysquare/microservice-template:1.0.0
    ```
 
 5. **Verify the upload**
    
-   Visit your Docker Hub repository at `https://hub.docker.com/r/yourusername/microservice-template`
+   Visit your Docker Hub repository at `https://hub.docker.com/r/blueskysquare/microservice-template`
 
 ### Using Your Docker Hub Image
 
@@ -370,10 +370,10 @@ Others can now use your microservice by pulling the image:
 
 ```bash
 # Pull the image
-docker pull yourusername/microservice-template:latest
+docker pull blueskysquare/microservice-template:latest
 
 # Run the container
-docker run -p 8000:8000 yourusername/microservice-template:latest
+docker run -p 8000:8000 blueskysquare/microservice-template:latest
 ```
 
 For docker-compose users, they can reference your image in their docker-compose.yml:
